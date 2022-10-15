@@ -1,13 +1,21 @@
-
 .jumbotron {
   padding-top: 6rem;
   background-color: #ab90ca77;
 }
 
 #projects {
-  background-color: #ab90ca77;;
+  background-color: #ab90ca77;
 }
 
 section {
   padding-top: 5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#menu_nav {
+  position: sticky;
+  top: 0px;
 }
